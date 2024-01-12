@@ -128,8 +128,15 @@ nav li a {
         padding: 20px;
     }
 
-    nav {
+    nav,.teams-container{
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+    .teams-content{
+        padding: 0 20px;
     }
 
 }
@@ -140,7 +147,13 @@ nav li a {
         padding: 50px;
     }
 
-    nav {
+    nav,.teams-container{
         flex-direction: column;
+    }
+    .teams-img-container{
+        margin-left: 0;
+    }
+    .teams-content{
+        padding: 0 45px;
     }
 }
