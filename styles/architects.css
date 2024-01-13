@@ -129,6 +129,7 @@ nav li a {
     margin-bottom: 2.7rem;
 
 }
+
 .facts-description {
     max-width: 542px;
     color: #727272;
@@ -150,25 +151,55 @@ nav li a {
     align-items: center;
     text-align: center;
 }
-.icon{
+
+.icon {
     width: 2.8rem;
-height: 2.8rem;
-padding-top: 2.8rem;
+    height: 2.8rem;
+    padding-top: 2.8rem;
 }
-.icon-title{
-    color:#424242;
-text-align: center;
-font-size: 2.8rem;
-font-weight: 600;
-margin-top: 0;
-margin-bottom: 0;
+
+.icon-title {
+    color: #424242;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.facts-icon div p{
-    color:#727272;
-font-size: 1.25rem;
-font-weight: 600;
-margin-bottom: 3.68rem;
+
+.facts-icon div p {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 3.68rem;
 }
+
+/* sponsors style */
+.sponsors-title {
+    text-align: center;
+    color: #131313;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+
+.sponsors-des {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.sponsors-img-container{
+    display: flex;
+    margin-top:3rem;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+}
+.sponsors-img-container img{
+    width: 165px;
+    height: 50px;
+}
+
 /* responsive styles */
 /* small or mobile devices */
 @media screen and (max-width:576px) {
@@ -177,7 +208,8 @@ margin-bottom: 3.68rem;
     }
 
     nav,
-    .teams-container,.facts-icon {
+    .teams-container,
+    .facts-icon,.sponsors-img-container{
         flex-direction: column;
     }
 
@@ -210,9 +242,10 @@ margin-bottom: 3.68rem;
     .teams-content {
         padding: 0 45px;
     }
-    .facts-icon{
+
+    .facts-icon {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-around;
         margin: 0 auto;
     }
